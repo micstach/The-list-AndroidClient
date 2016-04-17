@@ -24,6 +24,6 @@ public class MainActivity extends Activity {
         });
         webView.getSettings().setUserAgentString("desktop client");
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("http://todo-micstach.rhcloud.com");
+        webView.loadUrl("https://todo-micstach.rhcloud.com/login");
     }
 }
